@@ -84,7 +84,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/work-orders",
+        "https://keystone-backend-jxxj.onrender.com/api/work-orders",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -115,7 +115,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
+        "https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
           workOrderId +
           "/history",
         {
@@ -147,7 +147,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/users",
+        "https://keystone-backend-jxxj.onrender.com/api/users",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -178,7 +178,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/customers",
+        "https://keystone-backend-jxxj.onrender.com/api/customers",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -204,7 +204,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/sites",
+        "https://keystone-backend-jxxj.onrender.com/api/sites",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -230,7 +230,7 @@ const [customerWorkOrders, setCustomerWorkOrders] = useState<any[]>([]);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/time-logs",
+        "https://keystone-backend-jxxj.onrender.com/api/time-logs",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -255,7 +255,7 @@ const loadParts = async () => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      "http://https://keystone-backend-jxxj.onrender.com/api/parts",
+      "https://keystone-backend-jxxj.onrender.com/api/parts",
       {
         headers: {
           Authorization: "Bearer " + token,
@@ -278,7 +278,7 @@ const loadParts = async () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/parts",
+        "https://keystone-backend-jxxj.onrender.com/api/parts",
         {
           method: "POST",
           headers: {
@@ -325,7 +325,7 @@ const loadParts = async () => {
     }
 
     const response = await fetch(
-      "http://https://keystone-backend-jxxj.onrender.com/api/work-orders",
+      "https://keystone-backend-jxxj.onrender.com/api/work-orders",
       {
         method: "POST",
         headers: {
@@ -382,7 +382,7 @@ const loadParts = async () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/customer-portal/" +
+        "https://keystone-backend-jxxj.onrender.com/api/customer-portal/" +
           customerId +
           "/work-orders",
         {
@@ -418,7 +418,7 @@ const [showAuditLogs, setShowAuditLogs] = useState(false);
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/notifications",
+        "https://keystone-backend-jxxj.onrender.com/api/notifications",
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -443,7 +443,7 @@ const loadAuditLogs = async () => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      "http://https://keystone-backend-jxxj.onrender.com/api/audit-logs",
+      "https://keystone-backend-jxxj.onrender.com/api/audit-logs",
       {
         headers: {
           Authorization: "Bearer " + token,
@@ -488,7 +488,7 @@ useEffect(() => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
+        "https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
           workOrderId +
           "/status",
         {
@@ -530,7 +530,7 @@ useEffect(() => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      "http://https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
+      "https://keystone-backend-jxxj.onrender.com/api/work-orders/" +
         workOrderId +
         "/assign/" +
         technicianId,
