@@ -178,7 +178,34 @@ Customers can view their work orders and related information including:
 - Priority
 - Status
 - Service site
+## Screenshots
 
+### Dashboard
+![Dashboard](screenshots/01-Dashboard.png)
+
+### Customers
+![Customers](screenshots/02-Customers.png)
+
+### Sites & Time Logs
+![Sites and Time Logs](screenshots/03-Sites-Time-Logs.png)
+
+### Work Orders
+![Work Orders](screenshots/04-Work-Orders.png)
+
+### Status History
+![Status History](screenshots/05-Status-History.png)
+
+### Parts
+![Parts](screenshots/06-Parts.png)
+
+### Notifications
+![Notifications](screenshots/07-Notifications.png)
+
+### Audit Logs
+![Audit Logs](screenshots/08-Audit-Logs.png)
+
+### Customer Portal
+![Customer Portal](screenshots/09-Customer-Portal.png)
 ## Technology Stack
 
 ### Backend
