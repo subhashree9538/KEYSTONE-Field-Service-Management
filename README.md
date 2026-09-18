@@ -181,31 +181,27 @@ Customers can view their work orders and related information including:
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/01-Dashboard.png)
+![Dashboard](01-Dashboard.png.png)
 
 ### Customers
-![Customers](screenshots/02-Customers.png)
+![Customers](02.customer.png)
+
+### Customer Portal & Parts
+![Customer Portal and Parts](03-customer-portal-parts.png)
 
 ### Sites & Time Logs
-![Sites and Time Logs](screenshots/03-Sites-Time-Logs.png)
-
-### Work Orders
-![Work Orders](screenshots/04-Work-Orders.png)
-
-### Status History
-![Status History](screenshots/05-Status-History.png)
-
-### Parts
-![Parts](screenshots/06-Parts.png)
+![Sites and Time Logs](04-sites-time-logs.png)
 
 ### Notifications
-![Notifications](screenshots/07-Notifications.png)
+![Notifications](05-Notifications.png)
 
 ### Audit Logs
-![Audit Logs](screenshots/08-Audit-Logs.png)
+![Audit Logs 1](06-Audit-Logs%201.png)
 
-### Customer Portal
-![Customer Portal](screenshots/09-Customer-Portal.png)
+![Audit Logs 2](06-Audit-Logs%202.png)
+
+### Work Orders
+![Work Orders](07-Work-orders.png)
 ## Technology Stack
 
 ### Backend
