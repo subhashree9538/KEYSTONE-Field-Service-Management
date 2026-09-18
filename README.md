@@ -181,7 +181,7 @@ Customers can view their work orders and related information including:
 ## Screenshots
 
 ### Dashboard
-![Dashboard](01-Dashboard.png.png)
+![Dashboard](https://raw.githubusercontent.com/subhashree9538/KEYSTONE-Field-Service-Management/main/01-Dashboard.png.png)
 
 ### Customers
 ![Customers](02.customer.png)
